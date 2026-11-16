@@ -1,4 +1,7 @@
-"""nlp_corpus_explore.py - Module 3 Script.
+"""nlp_corpus_explore.py - Module 3 Script (custom).
+
+Author: Josiah Davis
+Date: 2026-11
 
 Purpose
 
@@ -16,6 +19,7 @@ Analytical Questions
 Notes:
 - This module focuses on exploratory analysis (EDA), not modeling.
 - Results here prepare for later work with pipelines and embeddings.
+- Started from Dr. Case's nlp-03-text-exploration example.
 
 Run from root project folder with:
 
@@ -315,7 +319,7 @@ print("- Co-occurrence reveals contextual relationships between words.")
 print("- Bigrams capture local structure beyond single tokens.")
 print("- Patterns emerge before any machine learning is applied.")
 
-print("\nYOURNAME SPECIFIC OBSERVATIONS:")
+print("\nJOSIAH DAVIS SPECIFIC OBSERVATIONS:")
 print("TODO")
 
 
