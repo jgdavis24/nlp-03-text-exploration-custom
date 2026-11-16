@@ -1,8 +1,8 @@
-# nlp-03-text-exploration
+# nlp-03-text-exploration-custom
 
 [![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](pyproject.toml)
-[![CI](https://github.com/denisecase/nlp-03-text-exploration/actions/workflows/ci-python-zensical.yml/badge.svg)](https://github.com/denisecase/nlp-03-text-exploration/actions/workflows/ci-python-zensical.yml)
-[![Documentation](https://img.shields.io/badge/docs-site-blue?logo=github)](https://denisecase.github.io/nlp-03-text-exploration/)
+[![CI](https://github.com/jgdavis24/nlp-03-text-exploration-custom/actions/workflows/ci-python-zensical.yml/badge.svg)](https://github.com/jgdavis24/nlp-03-text-exploration-custom/actions/workflows/ci-python-zensical.yml)
+[![Documentation](https://img.shields.io/badge/docs-site-blue?logo=github)](https://jgdavis24.github.io/nlp-03-text-exploration-custom/)
 
 [![uv managed](https://img.shields.io/badge/uv-managed-DE5FE9)](https://docs.astral.sh/uv/)
 [![ty type checked](https://img.shields.io/badge/ty-type_checked-2F80ED)](https://docs.astral.sh/ty/)
@@ -13,11 +13,14 @@
 
 ## Project Overview
 
-Author: Denise Case
+Author: Josiah Davis
 
-Date: 2026 October
+Date: 2026-11
 
-Third project in the Web Mining and Applied NLP course.
+Custom version of the third project in the Web Mining and Applied NLP course.
+Started from Dr. Case's
+[nlp-03-text-exploration](https://github.com/denisecase/nlp-03-text-exploration)
+example.
 
 This project introduces exploratory text analysis.
 
@@ -29,6 +32,10 @@ and explore relationships between words.
 These techniques provide foundations for understanding
 more advanced NLP methods, including
 language representations and embeddings.
+
+Planned customization: replace the dog/cat/car/truck corpus with fictional
+sportsbook app reviews grouped by topic (deposits, withdrawals, bonuses, verification)
+and use co-occurrence to see which words show up next to "not" in each category.
 
 The project is configured in
 [pyproject.toml](pyproject.toml).
@@ -125,7 +132,7 @@ uv run python -m pytest
 
 ## Project Documentation
 
-The [hosted documentation site](https://denisecase.github.io/nlp-03-text-exploration/)
+The [hosted documentation site](https://jgdavis24.github.io/nlp-03-text-exploration-custom/)
 is published using Zensical and GitHub Pages.
 
 The documentation site is used to present the project report,
@@ -139,8 +146,8 @@ to check project files and publish the docs.
 
 GitHub Actions include:
 
-- [CI: Python and Documentation Checks](https://github.com/denisecase/nlp-03-text-exploration/actions/workflows/ci-python-zensical.yml)
-- [CD: Documentation Deployment](https://github.com/denisecase/nlp-03-text-exploration/actions/workflows/deploy-zensical.yml)
+- [CI: Python and Documentation Checks](https://github.com/jgdavis24/nlp-03-text-exploration-custom/actions/workflows/ci-python-zensical.yml)
+- [CD: Documentation Deployment](https://github.com/jgdavis24/nlp-03-text-exploration-custom/actions/workflows/deploy-zensical.yml)
 
 ## Developer Reference
 
@@ -209,23 +216,4 @@ git push -u origin main
 ## Developer Notes
 
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
-- Use `CTRL+f` to find (and replace) text within a file.
-
-## Developer Tools
-
-This project uses professional Python tools to support development,
-testing, documentation, and code quality.
-
-- [uv](https://docs.astral.sh/uv/) - Python environments and dependencies.
-- [Ruff](https://docs.astral.sh/ruff/) - Python linting and formatting, configured in [.ruff.toml](.ruff.toml).
-- [ty](https://docs.astral.sh/ty/) - Python type checking.
-- [pytest](https://docs.pytest.org/) - automated Python testing, configured in [.pytest.toml](.pytest.toml).
-- [prek](https://prek.j178.dev/) - Git hooks and automated checks, configured in [prek.toml](prek.toml).
-- [Zensical](https://zensical.org/) - project documentation, configured in [zensical.toml](zensical.toml).
-
-## Links
-
-- [Hosted Documentation](https://denisecase.github.io/nlp-03-text-exploration/)
-- [Professional Python Workflow Guide](https://denisecase.github.io/pro-analytics-02/)
-- [Citation](CITATION.cff)
-- [License](LICENSE)
+- Use `CTRL+f` to find (and replace) text within a
