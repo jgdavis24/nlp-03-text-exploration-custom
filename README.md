@@ -216,4 +216,24 @@ git push -u origin main
 ## Developer Notes
 
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
-- Use `CTRL+f` to find (and replace) text within a
+- Use `CTRL+f` to find (and replace) text within a file.
+
+## Developer Tools
+
+This project uses professional Python tools to support development,
+testing, documentation, and code quality.
+
+- [uv](https://docs.astral.sh/uv/) - Python environments and dependencies.
+- [Ruff](https://docs.astral.sh/ruff/) - Python linting and formatting, configured in [.ruff.toml](.ruff.toml).
+- [ty](https://docs.astral.sh/ty/) - Python type checking.
+- [pytest](https://docs.pytest.org/) - automated Python testing, configured in [.pytest.toml](.pytest.toml).
+- [prek](https://prek.j178.dev/) - Git hooks and automated checks, configured in [prek.toml](prek.toml).
+- [Zensical](https://zensical.org/) - project documentation, configured in [zensical.toml](zensical.toml).
+
+## Links
+
+- [Hosted Documentation](https://jgdavis24.github.io/nlp-03-text-exploration-custom/)
+- [Original Example Project](https://github.com/denisecase/nlp-03-text-exploration)
+- [Professional Python Workflow Guide](https://denisecase.github.io/pro-analytics-02/)
+- [Citation](CITATION.cff)
+- [License](LICENSE)
